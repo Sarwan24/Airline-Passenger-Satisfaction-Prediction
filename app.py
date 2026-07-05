@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Load model
-model = joblib.load("models/airline_satisfaction_model.pkl")
+model = joblib.load("Models/airline_satisfaction_model.pkl")
 
 
 st.sidebar.title("✈️ Airline Satisfaction")
