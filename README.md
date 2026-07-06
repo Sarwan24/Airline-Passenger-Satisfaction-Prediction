@@ -2,7 +2,11 @@
 
 A Machine Learning web application that predicts whether an airline passenger is **Satisfied** or **Neutral / Dissatisfied** based on passenger details and service ratings.
 
----
+
+🔗 **Live Demo:** https://sarwan-airline-prediction.streamlit.app
+
+💻 **GitHub Repository:** https://github.com/Sarwan24/Airline-Passenger-Satisfaction-Prediction
+
 
 ## 📌 Project Overview
 
@@ -54,14 +58,18 @@ This project uses a **Random Forest Classifier** trained on an airline passenger
 ## 📂 Project Structure
 
 ```text
-Airline_Project/
+Airline-Passenger-Satisfaction-Prediction/
 │
 ├── app.py
-├── requirements.txt
 ├── README.md
-├── models/
+├── requirements.txt
+├── Models/
 │   └── airline_satisfaction_model.pkl
 └── assets/
+    ├── home.png
+    ├── prediction_result.png
+    ├── Model Informations & Services Rating
+    └── passenger_summary.png
 ```
 
 ---
@@ -71,7 +79,7 @@ Airline_Project/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Airline_Passenger_Satisfaction.git
+git clone git clone https://github.com/Sarwan24/Airline-Passenger-Satisfaction-Prediction.git
 ```
 
 ### Move into the project
@@ -96,14 +104,29 @@ streamlit run app.py
 
 ## 📷 Application Preview
 
-Add screenshots of your application here after deployment.
 
-Example:
+### 🏠 Home Page
 
-- Home Page
-- Prediction Result
-- Sidebar
+![Home Page](assets/home.png)
 
+---
+
+### 🎯 Prediction Result & Mode Performance
+
+![Prediction Result & Mode Performance
+](assets/ModelPerformences_&_Predictions.png)
+
+---
+## Model Informations & Services Rating
+
+![Model Informations](asserts/Model_Informations&ServicesRatings.png)
+
+
+---
+
+### 📊 Passenger Summary & Model Performance
+
+![Passenger Summary](assets/Passengers_Summary.png)
 ---
 
 ## 🎯 Future Improvements
@@ -115,6 +138,10 @@ Example:
 - Cloud deployment
 
 ---
+
+## 🌐 Live Demo
+
+https://sarwan-airline-prediction.streamlit.app
 
 ## 👨‍💻 Developer
 
