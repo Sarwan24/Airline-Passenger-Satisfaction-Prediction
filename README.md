@@ -107,7 +107,7 @@ streamlit run app.py
 
 ### 🏠 Home Page
 
-![Home Page](assets/home.png)
+![Home Page](assets/Home.png)
 
 ---
 
@@ -117,14 +117,16 @@ streamlit run app.py
 ](assets/ModelPerformences_&_Predictions.png)
 
 ---
-## Model Informations & Services Rating
 
-![Model Informations](asserts/Model_Informations&ServicesRatings.png)
+### Model Informations & Services Rating
+
+![Model Informations & Services Rating
+](assets/Model_Informations_&_ServicesRatings.png)
 
 
 ---
 
-### 📊 Passenger Summary & Model Performance
+### 📊 Passenger Summary
 
 ![Passenger Summary](assets/Passengers_Summary.png)
 ---
